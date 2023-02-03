@@ -1,10 +1,18 @@
 //import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
 import NewsPageGigi from './components/NewsPageGigi';
 
 function App() {
-  return <NewsPageGigi />
+  return (
+  <>
+  <Header />
+  <NewsPageGigi />
+ 
+  
+  </>
+  )
 }
 
 export default App;
@@ -28,6 +36,14 @@ export default App;
 //       </header>
 //     </div>
 //   );
+// }
+
+// export default App;
+
+
+
+// function App() {
+//   return <NewsPageGigi />
 // }
 
 // export default App;
