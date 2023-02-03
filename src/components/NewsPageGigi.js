@@ -33,7 +33,7 @@ function NewsPageGigi() {
 
   return (
     <div className='container'>
-        <h1>Latest Javascript news</h1>
+        <h1 className ='gigih1'>Latest Javascript news</h1>
         <div className='news-container'>
             {
                 isLoading ? <h3>Loading ...</h3> : articles.map( article => <NewsCardGigi article ={article} key={article.objectID}/>)
